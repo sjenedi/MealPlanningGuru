@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- MealPlanningGuruBSIT  -->
+
+
+<html lang="en">
+	<head>	
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+		<title>Contact Us</title>
+			
+		<link href="styles/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="styles/printfinal.css" media="print">	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<style>
+			label { 
+				float: left;
+				display: block;
+				text-align: right;
+				width: 120px;
+				padding-right: 10px; 
+			}
+
+			input, textarea { 
+				display: block;
+				margin-bottom: 20px;
+			}
+
+			input[type="submit"], input[type="reset"], input[type="checkbox"], input[type="radio"] {
+				margin-left: 130px;
+				display: inline;
+			}
+			
+			.tab { margin-left: 7%; }
+			</style>
+		
+	</head>
+			
+	<body>
+	<div id="wrapper">
+		<header>
+		<a href="final1.html"><img src="images/logo.png" alt="logo" > </a>
+		<h1 style="margin-right: 1em; margin-top: 2.1em; " >Meal Planning Guru</h1> 
+		</header>
+		<nav>
+			<ul class="topnav" >
+					  <li><a href="final1.html">Home</a></li>
+					  <li><a href="final2.html">Calendar</a></li>
+					  <li><a href="final3.html">Recipe Book</a></li>
+					  <li><a href="final4.html">Grocery List</a></li>
+					  <li><a href="final5.html">Contact Us</a></li>						 
+			</ul>
+		</nav>
+		<main>
+			<h3> Contact Us Today! </h3>
+			<br>
+			<img src="images/contactus.jpg" alt="Contact Us" style="float: right; margin: 0 2em 2em 0;" >
+			<p>Required fields are marked with an asterisk * </p>
+				<form method="post" action="" >
+					<label for="myFName">*First Name:</label>
+					<input type="text" name="myFName" id="myFName" required="required">
+					
+					<label for="myLName">*Last Name:</label>
+					<input type="text" name="myLName" id="myLName" required="required">
+					
+					<label for="myEmail">*E-mail :</label>
+					<input type="email" name="myEmail" id="myEmail" required="required">
+					
+					<label for="myPhone">Phone Number:</label>
+					<input type="tel" name="myPhone" id="myPhone" maxlength="12">
+					
+					<label for="todaysdate">Today&#039;s Date:</label>
+					<input type="date" name="todaysdate" id="todaysdate" >
+					
+
+
+					<label for="myComments">*Comments:</label>
+					<textarea name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea>
+					<input type="checkbox" name="box" value="Suggestions"> Suggestions <br>
+					<input type="checkbox" name="box" value="Complaint" checked="checked"> Complaint <br>
+					<input type="checkbox" name="box" value="Comments" checked="checked"> Comments <br><br>
+					
+					<p class="tab" >Did You Like Our Webpage </p>
+					 <input type="radio" name="isourwebsitegood?" value="yes" checked> Yes!<br>
+					 <input type="radio" name="ourwebsite" value="no"> No <br>
+					
+					<input id="mySubmit" type="submit" value="Submit">
+					
+					<input  type="reset" style="display: inline;" value="Reset" >   
+					
+				</form>
+		</main>
+	<footer>
+	Copyright &copy; 2021 Meal Planning Guru 
+	<p>
+	This is an email link:
+	<a href="mailto:samijenedi@hotmail.com?Subject=Meal%20Planning%20Guru" target="_top">Send Us E-Mail</a>
+	</p>
+				<a href="final1.html">Home&nbsp;&nbsp;</a> 
+				<a href="final2.html">Calendar&nbsp;&nbsp;</a> 
+				<a href="final3.html">Recipe Book&nbsp;&nbsp;</a> 
+				<a href="final4.html">Grocery List&nbsp;&nbsp;</a> 
+				<a href="final5.html">Contact Us&nbsp;&nbsp;</a> 
+				<a href="#top">Top</a>	
+	</footer>
+	</div>
+	</body>
+	
+</html>
